@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tamaños -->
+    <dimen name="texto_titulo">24sp</dimen>
+    <dimen name="texto_seccion">20sp</dimen>
+    <dimen name="texto_tarea">16sp</dimen>
+
+    <!-- Márgenes  -->
+    <dimen name="margen_pequeno">4dp</dimen>
+    <dimen name="margen_normal">8dp</dimen>
+    <dimen name="margen_grande">16dp</dimen>
+
+    <!-- Tamaños de íconos -->
+    <dimen name="icono_grande">40dp</dimen>
+    <dimen name="icono_normal">24dp</dimen>
+
+    <!-- El Padding  -->
+    <dimen name="padding_normal">8dp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- Nombre de la app -->
+    <string name="app_name">Mis Quehaceres</string>
+    <string name="app_title">✅ Mis Quehaceres</string>
+
+    <!-- Entrada de texto -->
+    <string name="hint_entrada">Escribe un quehacer...</string>
+    <string name="btn_agregar">Agregar</string>
+
+    <!-- Títulos de secciones -->
+    <string name="titulo_pendientes">Pendientes</string>
+    <string name="titulo_terminadas">Terminadas</string>
+    <string name="titulo_importantes">Prioridad</string>
+</resources>
+

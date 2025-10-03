@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Acción para marcar como terminada / NOTA: ojo con lo de los iconitos 03/10-->
+    <item
+        android:id="@+id/action_marcar_terminada"
+        android:title="Marcar como Terminada"
+        android:icon="@drawable/ic_check"
+        android:showAsAction="never" />
+
+    <!-- Acción para marcar como prioridad -->
+    <item
+        android:id="@+id/action_marcar_prioridad"
+        android:title="Marcar como Prioridad"
+        android:icon="@drawable/ic_important"
+        android:showAsAction="never" />
+
+    <!-- Acción para volver a pendientes -->
+    <item
+        android:id="@+id/action_marcar_pendiente"
+        android:title="Marcar como Pendiente"
+        android:icon="@drawable/ic_clipboard_add"
+        android:showAsAction="never" />
+
+    <!-- Nueva acción: eliminar -->
+    <item
+        android:id="@+id/action_eliminar"
+        android:title="Eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="never" />
+</menu>
