@@ -1,12 +1,9 @@
+**Parcial 1 - Aplicaciones Móviles (Escuela Da Vinci)**
+- Aplicación móvil en **Java con Android Studio**:para la gestión de tareas y quehaceres diarios.
 📱 MisQuehaceresApp
 - **Carelis Fagúndez Frías**
 - Dni: 19094687.
 - Prof. Sergio Medina
-
-
-Aplicación móvil en **Java con Android Studio** para la gestión de tareas y quehaceres diarios.
-Forma parte del **Parcial 1 - Aplicaciones Móviles (Escuela Da Vinci)**.
-
 ---
 
 ## Funcionalidades principales
