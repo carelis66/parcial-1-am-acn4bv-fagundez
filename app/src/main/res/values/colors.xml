@@ -11,7 +11,7 @@
     <!-- Fondo de la app -->
     <color name="fondoApp">#FAFAFA</color>
 
-    <!-- Colores de texto según estado -->
+    <!-- Colores de texto según estado de tareas -->
     <color name="tareaNormal">#000000</color>      <!-- Negro -->
     <color name="tareaImportante">#D32F2F</color> <!-- Rojo fuerte -->
     <color name="tareaTerminada">#757575</color>  <!-- Gris -->
