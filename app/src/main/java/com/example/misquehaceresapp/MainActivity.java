@@ -25,14 +25,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //agregar vistas
+        //agregar las vistas
         contenedorPendientes = findViewById(R.id.contenedorPendientes);
         contenedorTerminadas = findViewById(R.id.contenedorTerminadas);
         contenedorPrioridad = findViewById(R.id.contenedorPrioridad);
         entradaQuehacer = findViewById(R.id.entradaQuehacer);
         btnAgregar = findViewById(R.id.btnAgregar);
 
-        //botón Agregar (cambiar color 03/10)
+        //botón Agregar (cambiar color de boton 03/10)
         btnAgregar.setOnClickListener(v -> {
             String texto = entradaQuehacer.getText().toString().trim();
             if (!texto.isEmpty()) {
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         contenedor.addView(nuevaTarea);
     }
 
-    // Mostrar menú contextual
+    // Mostrar menú y arreglar lo del touch
     private void mostrarMenu(View vista, TextView tarea) {
         PopupMenu popup = new PopupMenu(this, vista);
         MenuInflater inflater = popup.getMenuInflater();
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         popup.show();
     }
 
-    // Manejar acciones del menú contextual
+    // Manejar acciones
     private boolean manejarAccionMenu(MenuItem item, TextView tarea) {
         int id = item.getItemId();
 
