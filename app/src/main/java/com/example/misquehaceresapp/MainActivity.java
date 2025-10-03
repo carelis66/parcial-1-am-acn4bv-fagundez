@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         entradaQuehacer = findViewById(R.id.entradaQuehacer);
         btnAgregar = findViewById(R.id.btnAgregar);
 
-        //botón Agregar
+        //botón Agregar (cambiar color 03/10)
         btnAgregar.setOnClickListener(v -> {
             String texto = entradaQuehacer.getText().toString().trim();
             if (!texto.isEmpty()) {
